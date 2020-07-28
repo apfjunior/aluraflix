@@ -11,6 +11,25 @@
   </a>
 </p>
 
-- Projeto construido durante a [Imersão React da Alura](https://www.alura.com.br/imersao-react/)
+> Projeto construido durante a [Imersão React da Alura](https://www.alura.com.br/imersao-react/)
 
-# :hammer_and_wrench: Building [...]
+## :information_source: How To Use
+
+### *[Yarn](https://yarnpkg.com/)*
+```sh
+yarn
+yarn start
+```
+
+ou
+
+### *[NPM](https://www.npmjs.com/)*
+```sh
+npm i
+npm start
+```
+
+
+-----
+**Created by Antonino Praxedes 👋🏻 [Get in touch!](https://www.linkedin.com/in/antoninopraxedes/)**
+
