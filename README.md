@@ -11,7 +11,8 @@
   </a>
 </p>
 
-> Projeto construido durante a [Imersão React da Alura](https://www.alura.com.br/imersao-react/)
+### Projeto construido durante a [Imersão React da Alura](https://www.alura.com.br/imersao-react/)
+### [Em andamento]
 
 ## :information_source: How To Use
 
