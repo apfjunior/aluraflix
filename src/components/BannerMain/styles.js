@@ -19,8 +19,24 @@ ContentAreaContainer.Item = styled.div`
   width: 50%;
   display: inline-block;
   margin-bottom: 50px;
+
+  /* &:first-child {
+    margin-right: 5px;
+    text-shadow: 2px 2px 4px rgb(200, 200, 200, 0.7);
+  } */
+
+  &:last-child {
+    box-shadow: 0 0 20px 6px rgb(108, 108, 108, 0.7);
+  }
+
   @media (max-width: 800px) {
     width: 100%;
+    &:first-child {
+      margin-right: 0;
+    }
+    &:last-child {
+      box-shadow: none;
+    }
   }
 `;
 
@@ -33,7 +49,7 @@ ContentAreaContainer.Category = styled.h1`
   display: flex;
   align-items: center;
   text-align: center;
-  display: inline-block; 
+  display: inline-block;
   padding: 25px;
   line-height: 1;
   border-radius: 4px;
@@ -69,7 +85,7 @@ export const BannerMainContainer = styled.section`
   height: 80vh;
   position: relative;
   color: #fff;
-  background-image: ${({ backgroundImage }) => `url(${backgroundImage})`}; 
+  background-image: ${({ backgroundImage }) => `url(${backgroundImage})`};
   background-size: cover;
   background-position: center;
   @media (max-width: 800px) {
@@ -79,7 +95,7 @@ export const BannerMainContainer = styled.section`
 
   &:after,
   &:before {
-    content: "";
+    content: '';
     display: block;
     position: absolute;
     left: 0;
@@ -91,7 +107,7 @@ export const BannerMainContainer = styled.section`
   &:before {
     top: 0;
     height: 100%;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0, 0, 0, 0.5);
   }
 
   &:after {
@@ -99,6 +115,36 @@ export const BannerMainContainer = styled.section`
     background: linear-gradient(0deg, #141414 0%, transparent 100%);
   }
 `;
+
+// export const WatchButton = styled.button`
+//   display: none;
+//   padding: 16px 24px;
+//   margin-left: auto;
+//   margin-right: auto;
+//   /* box-sizing: border-box; */
+//   background: var(--white);
+
+//   font-size: 16px;
+//   font-weight: bold;
+//   text-decoration: none;
+//   color: var(--black);
+//   border: 0;
+
+//   border-radius: 4px;
+//   border-color: var(--black);
+
+//   cursor: pointer;
+//   outline: none;
+//   transition: opacity 0.3s;
+
+//   &:focus,
+//   &:hover {
+//     opacity: 0.5;
+//   }
+//   @media (max-width: 800px) {
+//     display: block;
+//   }
+// `;
 
 export const WatchButton = styled.button`
   font-family: 'Roboto', sans-serif;
@@ -116,7 +162,7 @@ export const WatchButton = styled.button`
   color: var(--black);
   background: var(--white);
   border-color: var(--black);
-  transition: opacity .3s;
+  transition: opacity 0.3s;
   display: none;
   margin: 0 auto;
   @media (max-width: 800px) {
