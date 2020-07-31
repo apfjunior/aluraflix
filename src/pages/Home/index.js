@@ -14,7 +14,7 @@ function Home() {
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
         videoDescription={
-          'O ex-atleta e CEO da BJJ Fanatics, Bernado foi responsável da popularização da meia-guarda no Mundial de Jiu Jitsu na Califónia em 2015, onde foi Double Gold na faixa preta. Em uma entrevista, citou que os "gringos" até batizaram uma de suas raspagem como "Faria Sweep".'
+          'Misturei o Watson da IBM + Adobe After Effects + Wikipedia + Google Images API + Algorithmia + JavaScript + Node.js para criar 4 robôs que geram vídeos automáticos no YouTube.'
         }
       />
 
