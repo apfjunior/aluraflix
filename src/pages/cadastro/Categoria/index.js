@@ -26,17 +26,14 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    if (window.location.href.includes('localhost')) {
-      const URL = 'https://apfjunior-aluraflix.herokuapp.com/categorias';
-      fetch(URL).then(async responseServer => {
-        if (responseServer.ok) {
-          const response = await responseServer.json();
-          setCategorias(response);
-          return;
-        }
-        throw new Error('Não foi possível pegar os dados');
-      });
-    }
+    const URL = window.location.hostname.includes('localhost')
+      ? 'http://localhost:8080/categorias'
+      : 'https://apfjunior-aluraflix.herokuapp.com/categorias';
+
+    fetch(URL).then(async responseServer => {
+      const response = await responseServer.json();
+      setCategorias([...response]);
+    });
   }, []);
 
   return (
@@ -80,6 +77,8 @@ function CadastroCategoria() {
 
         <Button>Cadastrar</Button>
       </form>
+
+      {categorias.length === 0 && <div>Loagind...</div>}
 
       <ul>
         {categorias.map((categoria, indice) => {
