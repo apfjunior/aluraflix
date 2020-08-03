@@ -21,8 +21,8 @@
   "scripts": {
     "server": "node ./server.js",
     "dev": "concurrently \"react-scripts start\" \"node ./server.js\"",
-    "start": "npm rum server",
     "build": "react-scripts build",
+    "start": "npm rum server",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
