@@ -15,7 +15,7 @@
 <p>Criação do AluraFlix, aplicativo web utilizando ReactJS na semana da #ImersãoReact da Alura.<p>
 
 
-## :hammer_and_wrench: Tecnologias</h3>
+## 🚀 Tecnologias</h3>
 <ul>
     <li><a href="https://reactjs.org/" target="_blank">React</a></li>
     <li><a href="https://reactrouter.com/" target="_blank">React Route</a></li>
