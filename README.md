@@ -11,15 +11,25 @@
   </a>
 </p>
 
-### Projeto construido durante a [Imersão React da Alura](https://www.alura.com.br/imersao-react/)
-## [Em andamento]
+## :books: Sobre
+<p>Criação do AluraFlix, aplicativo web utilizando ReactJS na semana da #ImersãoReact da Alura.<p>
+
+
+## 🚀 Tecnologias</h3>
+<ul>
+    <li><a href="https://reactjs.org/" target="_blank">React</a></li>
+    <li><a href="https://reactrouter.com/" target="_blank">React Route</a></li>
+    <li><a href="https://react-slick.neostack.com/" target="_blank">React Slick</a></li>
+    <li><a href="https://github.com/typicode/json-server" target="_blank">JSON Server</a></li>
+</ul>
+
 
 ## :information_source: How To Use
 
 ### *[Yarn](https://yarnpkg.com/)*
 ```sh
 yarn
-yarn start
+yarn run dev
 ```
 
 ou
@@ -27,10 +37,14 @@ ou
 ### *[NPM](https://www.npmjs.com/)*
 ```sh
 npm i
-npm start
+npm run dev
 ```
+
+## :memo:  License
+
+MIT License - Veja [LICENSE](https://opensource.org/licenses/MIT) para mais detalhes.
 
 
 -----
-**Created by Antonino Praxedes 👋🏻 [Get in touch!](https://www.linkedin.com/in/antoninopraxedes/)**
+<p>Criado com 💙 por <a href='https://github.com/apfjunior/' target='blank'>Antonino Praxedes</a></p>
 
