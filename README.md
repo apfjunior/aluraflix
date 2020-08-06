@@ -15,7 +15,7 @@
 <p>Criação do AluraFlix, aplicativo web utilizando ReactJS na semana da #ImersãoReact da Alura.<p>
 
 
-## 🚀 Tecnologias</h3>
+## :hammer_and_wrench: Tecnologias</h3>
 <ul>
     <li><a href="https://reactjs.org/" target="_blank">React</a></li>
     <li><a href="https://reactrouter.com/" target="_blank">React Route</a></li>
@@ -44,7 +44,5 @@ npm run dev
 
 MIT License - Veja [LICENSE](https://opensource.org/licenses/MIT) para mais detalhes.
 
-
------
-<p>Criado com 💙 por <a href='https://github.com/apfjunior/' target='blank'>Antonino Praxedes</a></p>
+<p>Developed with :blue_heart: by <a href='https://github.com/apfjunior/' target='blank'>Antonino Praxedes</a></p>
 
