@@ -14,6 +14,7 @@
 ## :books: Sobre
 <p>Criação do AluraFlix, aplicativo web utilizando ReactJS na semana da #ImersãoReact da Alura.<p>
 
+### :mag: Deploy: https://aluraflix-apfjunior.vercel.app/
 
 ## 🚀 Tecnologias</h3>
 <ul>
@@ -23,6 +24,7 @@
     <li><a href="https://github.com/typicode/json-server" target="_blank">JSON Server</a></li>
 </ul>
 
+&nbsp;
 
 ## :information_source: How To Use
 
@@ -39,6 +41,7 @@ ou
 npm i
 npm run dev
 ```
+&nbsp;
 
 ## :memo:  License
 
